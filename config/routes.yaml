@@ -1,0 +1,24 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+praticien:
+    path: /
+    controller: App\Controller\PraticienController::index
+#_________________________________________________________________
+connexion:
+    path: /connexion
+    controller: App\Controller\ConnexionController::index
+#_________________________________________________________________:
+visiteur:
+    path: /visiteur
+    controller: App\Controller\VisiteurController::index
+#_________________________________________________________________:
+accueil:
+    path: /accueil
+    controller : App\Controller\AccueilController::index
+#_________________________________________________________________:
+formulaire:
+    path: /formulaire
+    controller: App\Controller\FormulaireController::formToConnect
+    
